@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color:black;
+}
+
+.container{
+    min-height: 100vh;
+    max-width: 100vw;
+    display: flex;
+   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    background-color:white;
+}
+#clock{
+    font-family: "Orbitron";
+    font-size: 15vw;
+    background-image: linear-gradient(180deg,
+    rgb(119, 99, 253)0%,
+    rgba(51,197,142,1)50%,
+    rgb(13, 69, 87)100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+.controls{
+    margin-top: 16px;
+}
+.button{
+    font-weight: bold;
+    border-radius: 5px;
+    border:none;
+  color:white;
+    padding:4px 8px;
+    margin-left: 4px;
+    cursor:pointer;
+}
+.set-alarm{
+    background-color:#498AF8;
+}
+.clear-alarm{
+    background-color: #ff3860;
+}
