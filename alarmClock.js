@@ -1,5 +1,5 @@
  const display = document.getElementById('clock');
- const audio = new Audio('/alarmClock/alarmSounds/mixkit-alarm-tone-996.wav');
+ const audio = new Audio('/alarmClock/alarmSounds/Rujay - Passion-[AudioTrimmer.com].mp3');
  audio.loop = true;
  let alarmTime = null;
  let alarmTimeout = null;
