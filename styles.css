@@ -44,7 +44,13 @@ input{
 }
 .set-alarm{
     background-color:#498AF8;
+    box-shadow: 0 0 10px rgb(255, 255, 255, 0.8);
+    border:2px solid black;
+   
 }
 .clear-alarm{
     background-color: #ff3860;
+    box-shadow: 0 0 10px rgb(255, 255, 255, 0.8);
+    border:2px solid black;
+   
 }
