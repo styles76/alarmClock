@@ -2,7 +2,10 @@
 margin:0;
 padding:0;
 box-sizing: border-box;
-background-color:black;
+
+}
+body{
+    background-image: url(/alarmClock/images/Hyades.jpg);
 }
 #preview{
 background-color: rgb(9, 41, 113);
