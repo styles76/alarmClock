@@ -4,9 +4,9 @@ padding:0;
 box-sizing: border-box;
 
 }
-body{
-    background-image: url(/alarmClock/images/Hyades.jpg);
-}
+body {
+    background-image: url(../images/Hyades.jpg);
+  }
 #preview{
 background-color: rgb(9, 41, 113);
 color:aqua;
@@ -19,7 +19,11 @@ padding:4px 8px;
 margin-left: 4px;
 cursor:pointer;
 }
-label, #alarmSound,option{
+label{
+    color:white;
+    background-color: rgb(22, 94, 88);
+}
+ #alarmSound,option{
 margin:20px 0 0 30px;
 background-color: black;
 outline:2px solid white;

@@ -4,20 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="/alarmClock/style/styles.css">
+    <link rel="stylesheet" href="style/styles.css">
     <title>Clock</title>
 </head>
 <body>
-   
     <label for="alarmSound">Choose Alarm Sound</label>
-<select id="alarmSound">  
-  <!-- <option value="/alarmClock/alarmSounds/Rujay - Passion-[AudioTrimmer.com].mp3">Passion</option> -->
-  <option value="/alarmClock/alarmSounds/mixkit-alarm-tone-996.wav">classic</option>
-  <option value="/alarmClock/alarmSounds/mixkit-battleship-alarm-1001.wav">Alert</option>
-  <option value="/alarmClock/alarmSounds/mixkit-sound-alert-in-hall-1006.wav">Alert-2</option>
-  <option value="/alarmClock/alarmSounds/mixkit-facility-alarm-908.wav">Facility</option>
-  
-</select>
+    <select id="alarmSound">  
+        <option value="alarmSounds/mixkit-alarm-tone-996.wav">Classic</option>
+        <option value="alarmSounds/mixkit-battleship-alarm-1001.wav">Alert</option>
+        <option value="alarmSounds/mixkit-sound-alert-in-hall-1006.wav">Alert-2</option>
+        <option value="alarmSounds/mixkit-facility-alarm-908.wav">Facility</option>
+    </select>
     <section class ="container">
         <div id="clock"></div>
         <input onchange="setAlarmTime(value)" name="alarmTime" type="datetime-local">
@@ -35,6 +32,5 @@
 
 
 
-    <script src="/alarmClock/js/alarmClock.js"></script>
-</body>
+    <script src="js/alarmClock.js"></script>
 </html>
